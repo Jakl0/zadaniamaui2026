@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tem3zad3.MainPage">
+
+    <ScrollView>
+        <Grid RowDefinitions="auto,auto,auto,auto"
+              ColumnDefinitions="auto,*"
+              ColumnSpacing="10" RowSpacing="20" Padding="30">
+
+            <Label x:Name="ProductLabel"
+                   Text="Produkt"
+                   Grid.Row="0"
+                   Grid.Column="0" VerticalOptions="Center" />
+            
+            <Entry Placeholder="Podaj nazwe produktu"
+                   x:Name="ProductEntry"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
+
+
+            <Label x:Name="QuantityLabel"
+                   Text="Ilość"
+                   Grid.Row="1"
+                   Grid.Column="0" VerticalOptions="Center"/>
+
+            <Entry Placeholder="Podaj ilość"
+                   x:Name="QuantityEntry"
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+
+
+            <Label x:Name="AdressLabel"
+                   Text="Adres"
+                   Grid.Row="2"
+                   Grid.Column="0" VerticalOptions="Center"/>
+
+            <Entry Placeholder="Podaj adres"
+                   x:Name="AdressEntry"
+                   Grid.Row="2"
+                   Grid.Column="1"/>
+
+
+            <Button Grid.ColumnSpan="2" 
+                    Grid.Row="3" 
+                    Grid.Column="0"
+                    Text="Złóż zamówienie"
+                    Clicked="OrderButtonClicked"
+                    />
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
