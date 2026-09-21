@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PowitanieApp/PowitanieApp.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="tem2zad2i3/tem2zad2i3.csproj" />
+</Solution>
