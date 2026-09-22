@@ -8,4 +8,10 @@
   <Project Path="tem3zad3/tem3zad3.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="tem4zad2i3/tem4zad2i3.csproj" Id="ff208323-7b0a-4708-86b8-fabb11fdbadb">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Tem5zad3/Tem5zad3.csproj" Id="889fc0ac-cbae-4b3c-bfbe-cfefed0363aa">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>

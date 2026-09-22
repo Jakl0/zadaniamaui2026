@@ -15,7 +15,24 @@
             if (!string.IsNullOrWhiteSpace(ProductEntry.Text)&& !string.IsNullOrWhiteSpace(QuantityEntry.Text)&& !string.IsNullOrWhiteSpace(AdressEntry.Text))
             {
 
-                DisplayAlert("Hej","Co jest","OK");
+                if (int.TryParse(QuantityEntry.Text,out int x))
+                {
+
+                    DisplayAlert($"{ProductEntry.Text}", $"Ilość: {x}  adres: {AdressEntry.Text}", $"Ok");
+
+                }
+                else
+                {
+                    DisplayAlert("Nieprawidłowe wprowadzenie danych", "Pole ilość musi być liczbą", "Ok");
+                }
+
+                
+
+            }
+            else
+            {
+
+                DisplayAlert("Uzupełnij wszystkie pola", "Należy uzupełnić wszystkie pola", "Ok");
 
             }
 

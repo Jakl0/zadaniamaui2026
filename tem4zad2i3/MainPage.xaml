@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tem4zad2i3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry
+                Placeholder="imię i nazwisko"
+                x:Name="NameEntry"
+                />
+
+
+            <VerticalStackLayout>
+            
+                
+                <CheckBox 
+                    x:Name="wiedzaBox"  />
+                
+                <Label 
+                    Text="Posiadam podstawową wiedzę"/>
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+            
+                <Switch x:Name="certyfikatSwitch" />
+                <Label Text="Chcę otrzymać certyfikat"/>
+
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+
+                <RadioButton Value="Stacjonarny" Content="Stacjonarny" x:Name="OpcjaStac"/>
+                <RadioButton Value="Online" Content="Online" x:Name="OpcjaOnline" IsChecked="True"/>
+                <RadioButton Value="Hybrydowy" Content="Hybrydowy" x:Name="OpcjaHybrid"/>
+
+            </VerticalStackLayout>
+            
+            <Editor 
+                x:Name="ExpectationEditor"
+                MaxLength="500"
+                AutoSize="TextChanges"
+                />
+            
+
+
+
+            <Button 
+                Text="Zapisz się" 
+                Clicked="SignUpClicked"/>
+            <Label x:Name="SummaryLabel"/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
