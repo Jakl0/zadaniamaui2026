@@ -35,6 +35,7 @@
             {
                 FirstEntry.Text = "";
                 SecondEntry.Text = "";
+                ResultLabel.Text = "";
             }
             
            
