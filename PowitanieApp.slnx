@@ -14,4 +14,11 @@
   <Project Path="Tem5zad3/Tem5zad3.csproj" Id="889fc0ac-cbae-4b3c-bfbe-cfefed0363aa">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="tem6zad3/tem6zad3.csproj" Id="7b0da937-2e98-49bd-96ce-ba5b4f427f75">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="tem7zad3/tem7zad3.csproj" Id="9962dd6d-10f4-418a-b881-ffdaaf906b27">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="tem8zad3/tem8zad3.csproj" Id="c4cb3722-c6bf-4ddd-9b08-df985d866603" />
 </Solution>

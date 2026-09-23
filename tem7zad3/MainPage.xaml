@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tem7zad3.MainPage"
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Slider Value="0" Minimum="0" Maximum="255" ValueChanged="ZmienKolor" x:Name="slidR"/>
+            <Slider Value="0" Minimum="0" Maximum="255" ValueChanged="ZmienKolor" x:Name="slidG"/>
+            <Slider Value="0" Minimum="0" Maximum="255" ValueChanged="ZmienKolor" x:Name="slidB"/>
+            <Label x:Name="LabelR"/>
+            <Label x:Name="LabelG"/>
+            <Label x:Name="LabelB"/>
+            <Label x:Name="HexLabel"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

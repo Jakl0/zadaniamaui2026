@@ -10,11 +10,20 @@
 
             <Picker x:Name="SalaPicker" SelectedIndexChanged="PickerChange"/>
 
-            <Stepper Maximum="50" Minimum="1" ValueChanged="StepperChange"/>
+            
+            <HorizontalStackLayout Spacing="30" Padding="10">
 
-            <DatePicker DateSelected="DateChange"/>
+                <Label Text="Liczba osob"/>
+                <Stepper Maximum="50" Minimum="1" ValueChanged="StepperChange" x:Name="LiczbaOsob"/>
+                <Label x:Name="StepperLabel" Text=": 1"/>
+            </HorizontalStackLayout>
+            
+            
+            <DatePicker DateSelected="DateChange" x:Name="DataPick" Format="dd.MM.yyyy"/>
 
-            <Button BackgroundColor="LightBlue" Text="Zarezerwuj"/>
+            <Button BackgroundColor="LightBlue" Text="Zarezerwuj" Clicked="ReserveClicked"/>
+
+            <Label x:Name="DisplayLabel"/>
 
 
         </VerticalStackLayout>
