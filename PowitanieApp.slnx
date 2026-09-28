@@ -2,6 +2,7 @@
   <Project Path="PowitanieApp/PowitanieApp.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="tem10zad3/tem10zad3.csproj" Id="35b84a1d-cbb0-437e-a179-732e44058abe" />
   <Project Path="tem2zad2i3/tem2zad2i3.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
@@ -21,4 +22,7 @@
     <Deploy Solution="Debug|*" />
   </Project>
   <Project Path="tem8zad3/tem8zad3.csproj" Id="c4cb3722-c6bf-4ddd-9b08-df985d866603" />
+  <Project Path="tem9zad2i3/tem9zad2i3.csproj" Id="b72fe4a8-37a4-4f17-b4b4-2db0c41a30b5">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>

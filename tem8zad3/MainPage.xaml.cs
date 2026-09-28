@@ -29,16 +29,20 @@
         }
         private async void ClearCLick(object sender, EventArgs e)
         {
-            bool usunac = await DisplayAlert("Uwaga","Czy na pewno chcesz usunac dane","Tak","Nie");
-
-            if (usunac)
+            if (!string.IsNullOrWhiteSpace(FirstEntry.Text)|| !string.IsNullOrWhiteSpace(FirstEntry.Text))
             {
-                FirstEntry.Text = "";
-                SecondEntry.Text = "";
-                ResultLabel.Text = "";
-            }
+
             
-           
+                bool usunac = await DisplayAlert("Uwaga","Czy na pewno chcesz usunac dane","Tak","Nie");
+
+                if (usunac)
+                {
+                    FirstEntry.Text = "";
+                    SecondEntry.Text = "";
+                    ResultLabel.Text = "";
+                }
+            }
+
 
         }
     }
