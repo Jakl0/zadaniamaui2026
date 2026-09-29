@@ -8,6 +8,7 @@
   <Project Path="tem11zad2i3/tem11zad2i3.csproj" Id="81c10098-6ace-4210-bf7d-d63ac29f6a29">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="tem12zad2i3/tem12zad2i3.csproj" Id="0e8b3e88-0a93-49e4-8279-055bb962f0b3" />
   <Project Path="tem2zad2i3/tem2zad2i3.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
@@ -26,7 +27,9 @@
   <Project Path="tem7zad3/tem7zad3.csproj" Id="9962dd6d-10f4-418a-b881-ffdaaf906b27">
     <Deploy Solution="Debug|*" />
   </Project>
-  <Project Path="tem8zad3/tem8zad3.csproj" Id="c4cb3722-c6bf-4ddd-9b08-df985d866603" />
+  <Project Path="tem8zad3/tem8zad3.csproj" Id="c4cb3722-c6bf-4ddd-9b08-df985d866603">
+    <Deploy Solution="Debug|*" />
+  </Project>
   <Project Path="tem9zad2i3/tem9zad2i3.csproj" Id="b72fe4a8-37a4-4f17-b4b4-2db0c41a30b5">
     <Deploy Solution="Debug|*" />
   </Project>

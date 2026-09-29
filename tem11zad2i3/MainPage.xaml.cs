@@ -1,7 +1,10 @@
-﻿namespace tem11zad2i3
+﻿using System.Collections.ObjectModel;
+
+namespace tem11zad2i3
 {
     public partial class MainPage : ContentPage
     {
+        ObservableCollection<string> PobraneKolory= new ObservableCollection<string>();
         public MainPage()
 
         {
@@ -61,6 +64,7 @@
             // Color.FromRgb tworzy kolor z trzech skladowych calkowitych 
 
             duzyProstokat.Color = Color.FromRgb(r, g, b);
+            etykietaHex.Text = $"#{r:X2}{g:X2}{b:X2}";
 
         }
 
@@ -99,6 +103,9 @@
             // Ustawiamy tekst w formacie wymaganym przez arkusz: "R, G, B" 
 
             etykietaPobrany.Text = r + ", " + g + ", " + b;
+            PobraneKolory.Add(etykietaPobrany.Text);
+            ListaPobranychKolorow.ItemsSource = PobraneKolory;
+
 
         }
     }
