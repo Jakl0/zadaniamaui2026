@@ -123,6 +123,8 @@
             poleNazwisko.Text = "";
             poleNumer.Text = "";
 
+            obrazZdjecie.Source = null;
+            obrazOdcisk.Source = null;
         }
 
     }
